@@ -24,6 +24,14 @@ Repository ini berisi kode sumber modul praktikum dan penyelesaian tugas/challen
 - `kalkulator.py`: Kalkulator berulang menggunakan konstruksi `while True` dan instruksi `break`.
 - `challenge_keliling.py`: Solusi resmi studi kasus [challengs.pdf](./Pertemuan%204/challengs.pdf) (menghitung keliling persegi dan persegi panjang secara interaktif).
 
+### 🔹 [Pertemuan 5: Fungsi (Function), Parameter, Return, & Studi Kasus](./Pertemuan%205/)
+- `fungsi.py`: Pengenalan fungsi dasar tanpa parameter (`def`), blok kode, aturan indentasi, dan konsep *reusability*.
+- `fungsi_dengan_parameter.py`: Fungsi berparameter dinamis, perbedaan mendasar parameter vs argumen, serta contoh multi-parameter.
+- `fungsi_dengan_return.py`: Konsep nilai kembalian (`return`) vs `print()`, menampung hasil ke variabel, dan operasi lanjutan.
+- `if_dalam_fungsi.py`: Integrasi struktur percabangan (`if - elif - else`) di dalam fungsi, evaluasi kondisi bertingkat, dan perbaikan logika kelulusan.
+- `challenge.py`: Solusi resmi studi kasus [challenge.pdf](./Pertemuan%205/challenge.pdf) (menghitung total biaya bensin SPBU menggunakan fungsi dengan return).
+- `soal/`: Kumpulan 60 berkas Python mandiri terpisah ([`soal_01.py`](./Pertemuan%205/soal/soal_01.py) s.d. [`soal_60.py`](./Pertemuan%205/soal/soal_60.py)) yang mencakup materi aritmatika dasar, percabangan `if-else`, perulangan `while`, fungsi prosedural, dan fungsi return value, disertai modul pembahasan di [PANDUAN_DAN_PEMBAHASAN_SOAL.md](./Pertemuan%205/soal/PANDUAN_DAN_PEMBAHASAN_SOAL.md).
+
 ---
 
 ## 🚀 Cara Menjalankan Program
@@ -43,6 +51,9 @@ Pastikan Anda telah menginstal **Python 3.x** di komputer Anda.
    python "PERTEMUAN 2/main.py"
    python "PERTEMUAN 3/kalkulator.py"
    python "Pertemuan 4/challenge_keliling.py"
+   python "Pertemuan 5/fungsi.py"
+   python "Pertemuan 5/challenge.py"
+   python "Pertemuan 5/soal/soal_01.py"
    ```
 
 ---
